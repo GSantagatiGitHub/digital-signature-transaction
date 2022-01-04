@@ -1,0 +1,96 @@
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+}
+
+
+.form {
+    margin: 0 auto;
+    width: 600px;
+    height: 650px;
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+    background-color: #fff;
+}
+
+h1 {
+    color: blue;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+h1, p {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+input {
+    width: 98%;
+    padding: .5em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+    margin-bottom: 1em;
+
+}
+
+button {
+    width: 100%;
+    padding: .5em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+    margin-top: 1em;
+    background-color: #eee;
+    font-size: 1.2em;
+}
+
+#generate-btn {
+    background-color: yellow;
+    font-size: 1.2em;
+}
+
+#generate-btn:hover {
+    background-color: rgb(255, 201, 100);
+    cursor: pointer;
+}
+
+#verify-btn {
+    background-color: rgb(43, 134, 43);
+    font-size: 1.2em;
+    color: #fff;
+}
+
+#verify-btn:hover {
+    background-color: rgb(185, 255, 185);
+    cursor: pointer;
+    color: #000;
+}
+
+#sign-btn {
+    background-color: rgb(255, 131, 131);
+    font-size: 1.2em;
+}
+
+#sign-btn:hover {
+    background-color: red;
+    cursor: pointer;
+    color: white;
+}
+
+@media only screen and (max-width: 600px) {
+    .form {
+        width: 100%;
+    }
+}
+
